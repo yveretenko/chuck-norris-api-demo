@@ -1,0 +1,21 @@
+@media (max-width: 991px) {
+    #favourites-panel {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 70vw;
+        z-index: 1050;
+        box-shadow: 0 0 100vw 100vh rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media (max-width: 575px) {
+    #favourites-panel {
+        width: 100vw;
+    }
+}
+
+.letter-spacing-wide {
+    letter-spacing: 0.12em;
+}
